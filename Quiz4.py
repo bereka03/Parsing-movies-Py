@@ -28,4 +28,4 @@ while page <= 5:
         print(year)
         f_obj.writerow([title, year, rating, img_url])
     page += 1
-    sleep(randint(2, 8))
+    sleep(randint(15, 20))
